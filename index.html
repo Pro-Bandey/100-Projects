@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="shortcut icon" href="./src/favicon.png" type="image/x-icon">
+    <title>100 Projects</title>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">100 Projects</div>
+        <div class="menu-container" id="menu-container">
+            <a href="#">Home</a>
+            <a href="https://m-ramzan-ch.blogspot.com">About Me</a>
+            <a href="https://m-ramzan-ch.blogspot.com/#contact">Contact</a>
+            <a href="https://github.com/pro-bandey/100-Projects">GitHub</a>
+        </div>
+        <div class="btn-container">
+            <div class="menu-toggle" id="menu-toggle"><span></span><span></span><span></span></div>
+            <button id="theme-toggle" class="theme-btn">🌙</button>
+        </div>
+    </nav>
+
+    <h1>100 Projects</h1>
+    <input class="search-bar" id="search-input" autocomplete="off" type="text" placeholder="Search Projects..."
+        onkeyup="searchProjects()">
+    <hr style="margin: 20px;">
+    <div id="project-container" class="project-container"></div>
+
+    <div id="sub-popup" class="popup">
+        <div class="popup-inner">
+            <h2 id="popup-title"></h2>
+            <div id="popup-links"></div>
+            <button onclick="closePopup()" class="close-btn">Close</button>
+        </div>
+    </div>
+    <hr>
+    <footer style="
+    text-align: center;
+    color: var(---text-color);
+">
+        © 2025 MicroResearch Corporation®. All Rights Reserved.<br>
+        <br>
+        Made with ♥ by M Ramzan Ch
+    </footer>
+    <script>
+        // ===================== THEME SWITCHER =====================
+        const themeBtn = document.querySelector('.theme-btn');
+        const body = document.body;
+
+        // Load saved theme
+        if (localStorage.getItem('theme') === 'dark') {
+            body.classList.add('dark');
+        }
+
+        // Toggle theme on button click
+        themeBtn.addEventListener('click', () => {
+            body.classList.toggle('dark');
+            localStorage.setItem('theme', body.classList.contains('dark') ? 'dark' : 'light');
+        });
+
+        // ===================== MOBILE MENU TOGGLE =====================
+        const menuToggle = document.getElementById('menu-toggle');
+        const menuContainer = document.querySelector('.menu-container');
+        const navpad = document.querySelector('.navbar');
+
+        menuToggle.addEventListener('click', () => {
+            menuContainer.classList.toggle('active');
+            navpad.classList.toggle('navpadd');
+        });
+
+        // // ===================== LOAD PROJECTS =====================
+        fetch('projects.json')
+            .then(res => res.json())
+            .then(projects => {
+                const container = document.getElementById('project-container');
+                container.innerHTML = '';
+
+                projects.forEach(project => {
+                    const card = document.createElement('div');
+                    card.className = 'project-card';
+
+                    // Add project name + description + links
+                    let innerHTML = `<h3>${project.name}</h3>
+                           <p>${project.description || ''}</p>`;
+
+
+                    if (project.demos && project.demos.length > 0) {
+                        innerHTML += `<ht><button class="preview-btn">Preview</button>`;
+                    } else if (project.path) {
+                        // Single project -> Preview link opens path
+                        innerHTML += `<hr><a class="preview-link" href="${project.path}" target="_blank">Preview⇗</a>`;
+                    }
+
+                    // Always add Github link
+                    innerHTML += `<a class="github-link" href="https://github.com/pro-bandey/100-Projects/${project.path || ''}" target="_blank">Source Code⇗</a>`;
+
+                    card.innerHTML = innerHTML;
+                    container.appendChild(card);
+                    observer.observe(card); // fade-in effect
+
+                    // Handle Preview button for multi-folder projects
+                    const previewBtn = card.querySelector('.preview-btn');
+                    if (previewBtn) {
+                        previewBtn.addEventListener('click', (e) => {
+                            e.stopPropagation(); // prevent any bubbling
+                            openPopup(project);
+                        });
+                    }
+                });
+            })
+            .catch(err => {
+                console.error('Failed to load projects:', err);
+                document.getElementById('project-container').innerHTML = '<p style="color:red;text-align:center;">Failed to load projects. Check JSON & paths.</p>';
+            });
+
+        // ===================== POPUP HANDLER =====================
+        function openPopup(project) {
+            const popup = document.getElementById('sub-popup');
+            const title = document.getElementById('popup-title');
+            const links = document.getElementById('popup-links');
+            title.textContent = project.name;
+            links.innerHTML = '';
+            project.demos.forEach(demo => {
+                const a = document.createElement('a');
+                a.href = demo.path;
+                a.textContent = demo.title;
+                a.target = '_blank';
+                links.appendChild(a);
+            });
+            popup.classList.add('show');
+        }
+
+        function closePopup() {
+            document.getElementById('sub-popup').classList.remove('show');
+        }
+
+        // ===================== SEARCH FUNCTIONALITY =====================
+        function searchProjects() {
+            const q = document.getElementById('search-input').value.toLowerCase();
+            document.querySelectorAll('.project-card').forEach(card => {
+                const title = card.querySelector('h3').textContent.toLowerCase();
+                card.style.display = title.includes(q) ? 'block' : 'none';
+            });
+        }
+
+        // ===================== FADE-IN OBSERVER =====================
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) entry.target.classList.add('show');
+            });
+        });
+
+    </script>
+</body>
+
+</html>
