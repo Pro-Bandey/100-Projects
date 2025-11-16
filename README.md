@@ -26,126 +26,228 @@ https://pro-bandey.github.io/100-Projects/
 
 ---
 
-# 📂 **Project Index (100 Folders with Links)**
+# 📁 Project Index (1–100) — **All Links Fixed**
 
-Below is the complete list of project folders included in this repository.
-## 📁 Project Index (1–100)
+> **NOTE:** Spaces are now safely converted to **%20** in folder names.
 
-#### 01. [bg-video](./01.bg-video/)
-#### 02. [Creative Loading Animation](./02.Creative Loading Animation/)
-#### 03. [Custom Scrollbar](./03. Custom Scrollbar/)
-#### 04. [Creative Image Hover Effect](./04. Creative Image Hover Effect/)
+---
 
-#### 05. Top 5 Creative Buttons
-- [btn1](./05. Top 5 Creative Buttons/btn1/)
-- [btn2](./05. Top 5 Creative Buttons/btn2/)
-- [btn3](./05. Top 5 Creative Buttons/btn3/)
-- [btn4](./05. Top 5 Creative Buttons/btn4/)
-- [btn5](./05. Top 5 Creative Buttons/btn5/)
+### 01. [bg-video](./01.bg-video/)
 
-#### 06. Creative Menus
-- [Menu 1](./06. Creative Menus/01. Menu/)
-- [Menu 2](./06. Creative Menus/02. Menu/)
-- [Menu 3](./06. Creative Menus/03. Menu/)
+### 02. [Creative Loading Animation](./02.Creative%20Loading%20Animation/)
 
-#### 07. Creative Image Effect
-- [Effect 1](./07. Creative Image Effect/01. Effect 1/)
-- [Effect 2](./07. Creative Image Effect/02. Effect 2/)
-- [Effect 3](./07. Creative Image Effect/03. Effect 3/)
+### 03. [Custom Scrollbar](./03.%20Custom%20Scrollbar/)
 
-#### 08. Creative Cards
-- [Card 1](./08. Creative Cards/01. Card 1/)
-- [Card 2](./08. Creative Cards/02. Card 2/)
+### 04. [Creative Image Hover Effect](./04.%20Creative%20Image%20Hover%20Effect/)
 
-#### 09. [Tooltip](./09. Tooltip/)
-#### 10. [Accordion](./10. Accordion/)
-#### 11. [Scrollbar](./11. Scrollbar/)
-#### 12. [Image Bg Text](./12. Image Bg Text/)
-#### 13. [Page Scroll Indicator](./13. Page Scroll Indicator/)
-#### 14. [Hearts](./14. Heart/)
-#### 15. [Background Color Changer](./15. Background Color Changer/)
-#### 16. [Auto Text](./16. Auto Text/)
-#### 17. [Cursor](./17. Cursor/)
-#### 18. [Video Trailer Popup](./18. Video Trailer Popup/)
-#### 19. [Color Toggler](./19. Color Toggler/)
-#### 20. [Animated Navigation](./20. Animated Navigation/)
-#### 21. [Random Emoji](./21. Random Emojie/)
-#### 22. [Fade Out](./22. Fade Out/)
-#### 23. [Simple Calculator](./23. Simple Calculator/)
-#### 24. [Copy and Move](./24. Copy and Move/)
-#### 25. [Progress Step](./25. Progress Step/)
-#### 26. [Popup Form](./26. Popup Form/)
-#### 27. [Lazy Loading](./27. Lazy Loading/)
-#### 28. [Show Hide Password](./28. Show Hide Password/)
-#### 29. [Select Menu](./29. Select Menu/)
-#### 30. [Form Wave](./30. Form Wave/)
-#### 31. [Full Screen Navigation](./31. Full Screen Navigation/)
-#### 32. [3D Nav](./32. 3D Nav/)
-#### 33. [Counter](./33. Counter/)
-#### 34. [Text Formatter](./34. Text Formatter/)
-#### 35. [Image Gallery](./35. Image Gallery/)
-#### 36. [Read More and Read Less](./36. Read More and Read Less/)
-#### 37. [Expanding Cards](./37. Expanding Cards/)
-#### 38. [keyCode](./38. keyCode/)
-#### 39. [Tabs](./39. Tabs/)
-#### 40. [Accordions](./40. Accordions/)
-#### 41. [Random Images Feed](./41. Random Images Feed/)
-#### 42. [Random Quote](./42. Random Quote/)
-#### 43. [Email Validation](./43. Email Validation/)
-#### 44. [Interchangeable Background Color](./44. Interchangeable Background Color/)
-#### 45. [Digital Clock](./45. Digital Clock/)
-#### 46. [Browse File Upload](./46. Browse File Upload/)
-#### 47. [Sticky Navbar](./47. Sticky Navbar/)
-#### 48. [Search and Highlight](./48. Search and Highlight/)
-#### 49. [Custom Range Slider](./49. Custom Range Slider/)
-#### 50. [Feedback](./50. Feedback/)
-#### 51. [Eye Follow](./51. Eye Follow/)
-#### 52. [Rounded Navbar](./52. Rounded Navbar/)
-#### 53. [CSS Clip Path Animation](./53. CSS Clip Path Animation/)
-#### 54. [Mini Calendar](./54. Mini Calendar/)
-#### 55. [Two Sides Scroll](./55. Two Sides Scroll/)
-#### 56. [Followers](./56. Followers/)
-#### 57. [Custom Cursor](./57. Custom Cusror/)
-#### 58. [Rotating Text](./58. Rotating Text/)
-#### 59. [Background Image Carousel](./59. Background Image Carousel/)
-#### 60. [Modern Calculator](./60. Modern Calculator/)
-#### 61. [Sidebar Animation](./61. Sidebar Animation/)
-#### 62. [Rotating Image Gallery](./62. Rotating Image Gallery/)
-#### 63. [Password Strength Bg](./63. Password Strength Bg/)
-#### 64. [Gradient Generator](./64. Gradient Generator/)
-#### 65. [Two Sided Form](./65. Two Sided Form/)
-#### 66. [Animated Search Bar](./66. Animated Search Bar/)
-#### 67. [Password Generator](./67. Password Generator/)
-#### 68. [Box Shadow Generator](./68. Box Shadow Generator/)
-#### 69. [Decimal To Binary Converter](./69. Deciaml To Binary Converter/)
-#### 70. [Captcha Project](./70. Captcha Project/)
-#### 71. [Drag n Drop](./71. Drag n Drop/)
-#### 72. [Update CSS Variables Using JavaScript](./72. Update CSS Variables Using JavaScript/)
-#### 73. [Light](./73. Light/)
-#### 74. [Tabed Navigation](./74. Tabed Navigation/)
-#### 75. [Todo List](./75. Todo List/)
-#### 76. [Chuck Norris](./76. Chuck Norris/)
-#### 77. [Random Cat Images](./77. Random Cat Images/)
-#### 78. [Dad Jokes](./78. Dad Jokes/)
-#### 79. [Testimonial Box Switcher](./79. Testimonal Box Switcher/)
-#### 80. [Live User Filter](./80. Live User Filter/)
-#### 81. [Animated Images Website](./81. Animated Images Website/)
-#### 82. [Emoji Catcher Game](./82. Emoji Catcher Game/)
-#### 83. [Twitter Follow Component](./83. Twitter Follow Component/)
-#### 84. [BookList Project](./84. BookList Project/)
-#### 85. [Timer](./85. Timer/)
-#### 86. [Typing Game](./86. Typing Game/)
-#### 87. [Shape Clicker Game](./87. Shape Clicker Game/)
-#### 88. [World Counter](./88. World Counter/)
-#### 89. [Random User](./89. Random User/)
-#### 90. [Construction Landing Page](./90. Construction Landing Page/)
-#### 91. [Foody Landing Page](./91. Foody Landing Page/)
-#### 92. [Coffee](./92. Coffee/)
-#### 93. [The Art](./93. The Art/)
-#### 94. [Hoodie](./94. Hoodie/)
-#### 95. [Chairs](./95. Chairs/)
-#### 96. [The Art (2nd)](./96. The Art/)
-#### 97. [Form Validation](./97. Form Validation/)
-#### 98. [Meal Finder](./98. Meal Finder/)
-#### 99. [Github Profile Clone](./99. Github Profile Clone/)
-#### 100. [Wikipedia Clone](./100. Wikipedia Clone/)
+### 05. Top 5 Creative Buttons
+
+* [btn1](./05.%20Top%205%20Creative%20Buttons/btn1/)
+* [btn2](./05.%20Top%205%20Creative%20Buttons/btn2/)
+* [btn3](./05.%20Top%205%20Creative%20Buttons/btn3/)
+* [btn4](./05.%20Top%205%20Creative%20Buttons/btn4/)
+* [btn5](./05.%20Top%205%20Creative%20Buttons/btn5/)
+
+### 06. Creative Menus
+
+* [Menu 1](./06.%20Creative%20Menus/01.%20Menu/)
+* [Menu 2](./06.%20Creative%20Menus/02.%20Menu/)
+* [Menu 3](./06.%20Creative%20Menus/03.%20Menu/)
+
+### 07. Creative Image Effect
+
+* [Effect 1](./07.%20Creative%20Image%20Effect/01.%20Effect%201/)
+* [Effect 2](./07.%20Creative%20Image%20Effect/02.%20Effect%202/)
+* [Effect 3](./07.%20Creative%20Image%20Effect/03.%20Effect%203/)
+
+### 08. Creative Cards
+
+* [Card 1](./08.%20Creative%20Cards/01.%20Card%201/)
+* [Card 2](./08.%20Creative%20Cards/02.%20Card%202/)
+
+### 09. [Tooltip](./09.%20Tooltip/)
+
+### 10. [Accordion](./10.%20Accordion/)
+
+### 11. [Scrollbar](./11.%20Scrollbar/)
+
+### 12. [Image Bg Text](./12.%20Image%20Bg%20Text/)
+
+### 13. [Page Scroll Indicator](./13.%20Page%20Scroll%20Indicator/)
+
+### 14. [Hearts](./14.%20Heart/)
+
+### 15. [Background Color Changer](./15.%20Background%20Color%20Changer/)
+
+### 16. [Auto Text](./16.%20Auto%20Text/)
+
+### 17. [Cursor](./17.%20Cursor/)
+
+### 18. [Video Trailer Popup](./18.%20Video%20Trailer%20Popup/)
+
+### 19. [Color Toggler](./19.%20Color%20Toggler/)
+
+### 20. [Animated Navigation](./20.%20Animated%20Navigation/)
+
+### 21. [Random Emoji](./21.%20Random%20Emojie/)
+
+### 22. [Fade Out](./22.%20Fade%20Out/)
+
+### 23. [Simple Calculator](./23.%20Simple%20Calculator/)
+
+### 24. [Copy and Move](./24.%20Copy%20and%20Move/)
+
+### 25. [Progress Step](./25.%20Progress%20Step/)
+
+### 26. [Popup Form](./26.%20Popup%20Form/)
+
+### 27. [Lazy Loading](./27.%20Lazy%20Loading/)
+
+### 28. [Show Hide Password](./28.%20Show%20Hide%20Password/)
+
+### 29. [Select Menu](./29.%20Select%20Menu/)
+
+### 30. [Form Wave](./30.%20Form%20Wave/)
+
+### 31. [Full Screen Navigation](./31.%20Full%20Screen%20Navigation/)
+
+### 32. [3D Nav](./32.%203D%20Nav/)
+
+### 33. [Counter](./33.%20Counter/)
+
+### 34. [Text Formatter](./34.%20Text%20Formatter/)
+
+### 35. [Image Gallery](./35.%20Image%20Gallery/)
+
+### 36. [Read More and Read Less](./36.%20Read%20More%20and%20Read%20Less/)
+
+### 37. [Expanding Cards](./37.%20Expanding%20Cards/)
+
+### 38. [keyCode](./38.%20keyCode/)
+
+### 39. [Tabs](./39.%20Tabs/)
+
+### 40. [Accordions](./40.%20Accordions/)
+
+### 41. [Random Images Feed](./41.%20Random%20Images%20Feed/)
+
+### 42. [Random Quote](./42.%20Random%20Quote/)
+
+### 43. [Email Validation](./43.%20Email%20Validation/)
+
+### 44. [Interchangeable Background Color](./44.%20Interchangeable%20Background%20Color/)
+
+### 45. [Digital Clock](./45.%20Digital%20Clock/)
+
+### 46. [Browse File Upload](./46.%20Browse%20File%20Upload/)
+
+### 47. [Sticky Navbar](./47.%20Sticky%20Navbar/)
+
+### 48. [Search and Highlight](./48.%20Search%20and%20Highlight/)
+
+### 49. [Custom Range Slider](./49.%20Custom%20Range%20Slider/)
+
+### 50. [Feedback](./50.%20Feedback/)
+
+### 51. [Eye Follow](./51.%20Eye%20Follow/)
+
+### 52. [Rounded Navbar](./52.%20Rounded%20Navbar/)
+
+### 53. [CSS Clip Path Animation](./53.%20CSS%20Clip%20Path%20Animation/)
+
+### 54. [Mini Calendar](./54.%20Mini%20Calendar/)
+
+### 55. [Two Sides Scroll](./55.%20Two%20Sides%20Scroll/)
+
+### 56. [Followers](./56.%20Followers/)
+
+### 57. [Custom Cursor](./57.%20Custom%20Cusror/)
+
+### 58. [Rotating Text](./58.%20Rotating%20Text/)
+
+### 59. [Background Image Carousel](./59.%20Background%20Image%20Carousel/)
+
+### 60. [Modern Calculator](./60.%20Modern%20Calculator/)
+
+### 61. [Sidebar Animation](./61.%20Sidebar%20Animation/)
+
+### 62. [Rotating Image Gallery](./62.%20Rotating%20Image%20Gallery/)
+
+### 63. [Password Strength Bg](./63.%20Password%20Strength%20Bg/)
+
+### 64. [Gradient Generator](./64.%20Gradient%20Generator/)
+
+### 65. [Two Sided Form](./65.%20Two%20Sided%20Form/)
+
+### 66. [Animated Search Bar](./66.%20Animated%20Search%20Bar/)
+
+### 67. [Password Generator](./67.%20Password%20Generator/)
+
+### 68. [Box Shadow Generator](./68.%20Box%20Shadow%20Generator/)
+
+### 69. [Decimal To Binary Converter](./69.%20Deciaml%20To%20Binary%20Converter/)
+
+### 70. [Captcha Project](./70.%20Captcha%20Project/)
+
+### 71. [Drag n Drop](./71.%20Drag%20n%20Drop/)
+
+### 72. [Update CSS Variables Using JavaScript](./72.%20Update%20CSS%20Variables%20Using%20JavaScript/)
+
+### 73. [Light](./73.%20Light/)
+
+### 74. [Tabed Navigation](./74.%20Tabed%20Navigation/)
+
+### 75. [Todo List](./75.%20Todo%20List/)
+
+### 76. [Chuck Norris](./76.%20Chuck%20Norris/)
+
+### 77. [Random Cat Images](./77.%20Random%20Cat%20Images/)
+
+### 78. [Dad Jokes](./78.%20Dad%20Jokes/)
+
+### 79. [Testimonial Box Switcher](./79.%20Testimonal%20Box%20Switcher/)
+
+### 80. [Live User Filter](./80.%20Live%20User%20Filter/)
+
+### 81. [Animated Images Website](./81.%20Animated%20Images%20Website/)
+
+### 82. [Emoji Catcher Game](./82.%20Emoji%20Catcher%20Game/)
+
+### 83. [Twitter Follow Component](./83.%20Twitter%20Follow%20Component/)
+
+### 84. [BookList Project](./84.%20BookList%20Project/)
+
+### 85. [Timer](./85.%20Timer/)
+
+### 86. [Typing Game](./86.%20Typing%20Game/)
+
+### 87. [Shape Clicker Game](./87.%20Shape%20Clicker%20Game/)
+
+### 88. [World Counter](./88.%20World%20Counter/)
+
+### 89. [Random User](./89.%20Random%20User/)
+
+### 90. [Construction Landing Page](./90.%20Construction%20Landing%20Page/)
+
+### 91. [Foody Landing Page](./91.%20Foody%20Landing%20Page/)
+
+### 92. [Coffee](./92.%20Coffee/)
+
+### 93. [The Art](./93.%20The%20Art/)
+
+### 94. [Hoodie](./94.%20Hoodie/)
+
+### 95. [Chairs](./95.%20Chairs/)
+
+### 96. [The Art (2nd)](./96.%20The%20Art/)
+
+### 97. [Form Validation](./97.%20Form%20Validation/)
+
+### 98. [Meal Finder](./98.%20Meal%20Finder/)
+
+### 99. [Github Profile Clone](./99.%20Github%20Profile%20Clone/)
+
+### 100. [Wikipedia Clone](./100.%20Wikipedia%20Clone/)
+
+
+
