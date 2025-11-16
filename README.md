@@ -21,8 +21,8 @@ https://pro-bandey.github.io/100-Projects/
 ---
 
 ## 🖼 Screenshot
-> *(Add your screenshot here)*  
-![Preview](assets/screenshot.png)
+> *(SnapShot)    
+![Preview](https://raw.githubusercontent.com/Pro-Bandey/100-Projects/refs/heads/main/src/srctake.png)
 
 ---
 
