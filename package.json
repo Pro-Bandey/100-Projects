@@ -1,0 +1,67 @@
+{
+  "name": "100 Projects",
+  "short_name": "1H Projects",
+  "lang": "en",
+  "orientation": "any",
+  "author": "Pro Bandey",
+  "publisher": "MainRoute Core®",
+  "description": "A collection of 100+ modern creative frontend projects including UI components, animations, effects, widgets, and more.",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#f44234",
+  "background_color": "#e0e5ec",
+  "protocol_handlers": [
+    {
+      "protocol": "mailto",
+      "url": "/newEmail?to=%s"
+    }
+  ],
+  "display_override": [
+    "window-controls-overlay"
+  ],
+  "shortcuts": [
+    {
+      "name": "Main",
+      "short_name": "Main",
+      "description": "Jump to Main",
+      "url": "./",
+      "icons": [
+        {
+          "src": "./src/favicon.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "icons": [
+    {
+      "purpose": "maskable",
+      "sizes": "512x512",
+      "src": "./src/favicon.png",
+      "type": "image/png"
+    },
+    {
+      "purpose": "any",
+      "sizes": "512x512",
+      "src": "./src/favicon.png",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://iili.io/fc3VMhu.png",
+      "type": "image/png",
+      "description": "Main Screen"
+    },
+    {
+      "src": "https://raw.githubusercontent.com/Pro-Bandey/100-Projects/refs/heads/main/src/srctake.png",
+      "type": "image/png",
+      "description": "SHOT 002"
+    },
+    {
+      "src": "https://iili.io/fc3VMhu.png",
+      "type": "image/png",
+      "description": "SHOT 003"
+    }
+  ]
+}

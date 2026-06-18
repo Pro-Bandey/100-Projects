@@ -1,0 +1,549 @@
+[
+  {
+    "name": "<span>01.</span> bg-video",
+    "description": "Background video project",
+    "path": "./01.bg-video/"
+  },
+  {
+    "name": "<span>02.</span> Creative Loading Animation",
+    "description": "Loading animations using CSS and JS",
+    "path": "./02.Creative Loading Animation/"
+  },
+  {
+    "name": "<span>03.</span> Custom Scrollbar",
+    "description": "Custom scrollbar designs",
+    "path": "./03. Custom Scrollbar/"
+  },
+  {
+    "name": "<span>04.</span> Creative Image Hover Effect",
+    "description": "Hover effects for images",
+    "path": "./04. Creative Image Hover Effect/"
+  },
+  {
+    "name": "<span>05.</span> Top 5 Creative Buttons",
+    "description": "Collection of 5 buttons",
+    "demos": [
+      {
+        "title": "btn1",
+        "path": "./05. Top 5 Creative Buttons/btn1/"
+      },
+      {
+        "title": "btn2",
+        "path": "./05. Top 5 Creative Buttons/btn2/"
+      },
+      {
+        "title": "btn3",
+        "path": "./05. Top 5 Creative Buttons/btn3/"
+      },
+      {
+        "title": "btn4",
+        "path": "./05. Top 5 Creative Buttons/btn4/"
+      },
+      {
+        "title": "btn5",
+        "path": "./05. Top 5 Creative Buttons/btn5/"
+      }
+    ]
+  },
+  {
+    "name": "<span>06.</span> Creative Menus",
+    "description": "Multiple menu designs",
+    "demos": [
+      { "title": "Menu 1", "path": "./06. Creative Menus/01. Menu/" },
+      { "title": "Menu 2", "path": "./06. Creative Menus/02. Menu/" },
+      { "title": "Menu 3", "path": "./06. Creative Menus/03. Menu/" }
+    ]
+  },
+  {
+    "name": "<span>07.</span> Creative Image Effect",
+    "description": "Image effects collection",
+    "demos": [
+      {
+        "title": "Effect 1",
+        "path": "./07. Creative Image Effect/01. Effect 1/"
+      },
+      {
+        "title": "Effect 2",
+        "path": "./07. Creative Image Effect/02. Effect 2/"
+      },
+      {
+        "title": "Effect 3",
+        "path": "./07. Creative Image Effect/03. Effect 3/"
+      }
+    ]
+  },
+  {
+    "name": "<span>08.</span> Creative Cards",
+    "description": "Card designs collection",
+    "demos": [
+      {
+        "title": "Card 1",
+        "path": "./08. Creative Cards/01. Card 1/"
+      },
+      {
+        "title": "Card 2",
+        "path": "./08. Creative Cards/02. Card 2/"
+      }
+    ]
+  },
+  {
+    "name": "<span>09.</span> Tooltip",
+    "description": "Tooltip examples",
+    "path": "./09. Tooltip/"
+  },
+  {
+    "name": "<span>10.</span> Accordion",
+    "description": "Accordion UI elements",
+    "path": "./10. Accordion/"
+  },
+  {
+    "name": "<span>11.</span> Scrollbar",
+    "description": "Custom scrollbars",
+    "path": "./11. Scrollbar/"
+  },
+  {
+    "name": "<span>12.</span> Image Bg Text",
+    "description": "Image background with text overlay",
+    "path": "./12. Image Bg Text/"
+  },
+  {
+    "name": "<span>13.</span> Page Scroll Indicators",
+    "description": "Scroll indicators for pages",
+    "path": "./13. Page Scroll Indicator/"
+  },
+  {
+    "name": "<span>14.</span> Hearts",
+    "description": "Heart animations",
+    "path": "./14. Heart/"
+  },
+  {
+    "name": "<span>15.</span> Background Color Changers",
+    "description": "Background color switching projects",
+    "path": "./15. Background Color Changer/"
+  },
+  {
+    "name": "<span>16.</span> Auto Texts",
+    "description": "Text auto typing projects",
+    "path": "./16. Auto Text/"
+  },
+  {
+    "name": "<span>17.</span> Cursors",
+    "description": "Custom cursors",
+    "path": "./17. Cursor/"
+  },
+  {
+    "name": "<span>18.</span> Video Trailer Popups",
+    "description": "Popup video trailers",
+    "path": "./18. Video Trailer Popup/"
+  },
+  {
+    "name": "<span>19.</span> Color Togglers",
+    "description": "Toggle colors dynamically",
+    "path": "./19. Color Toggler/"
+  },
+  {
+    "name": "<span>20.</span> Animated Navigations",
+    "description": "Navigation animations",
+    "path": "./20. Animated Navigation/"
+  },
+  {
+    "name": "<span>21.</span> Random Emojiess",
+    "description": "Random emojis",
+    "path": "./21. Random Emojie/"
+  },
+  {
+    "name": "<span>22.</span> Fade Outs",
+    "description": "Fade out animation projects",
+    "path": "./22. Fade Out/"
+  },
+  {
+    "name": "<span>23.</span> Simple Calculators",
+    "description": "Calculator examples",
+    "path": "./23. Simple Calculator/"
+  },
+  {
+    "name": "<span>24.</span> Copy and Moves",
+    "description": "Copy/Move file UI",
+    "path": "./24. Copy and Move/"
+  },
+  {
+    "name": "<span>25.</span> Progress Stepss",
+    "description": "Step progress UI",
+    "path": "./25. Progress Step/"
+  },
+  {
+    "name": "<span>26.</span> Popup Forms",
+    "description": "Popup form designs",
+    "path": "./26. Popup Form/"
+  },
+  {
+    "name": "<span>27.</span> Lazy Loadings",
+    "description": "Lazy load content",
+    "path": "./27. Lazy Loading/"
+  },
+  {
+    "name": "<span>28.</span> Show Hide Passwords",
+    "description": "Password toggle show/hide",
+    "path": "./28. Show Hide Password/"
+  },
+  {
+    "name": "<span>29.</span> Select Menu",
+    "description": "Custom select menus",
+    "path": "./29. Select Menu/"
+  },
+  {
+    "name": "<span>30.</span> Form Waves",
+    "description": "Form waves animation",
+    "path": "./30. Form Wave/"
+  },
+  {
+    "name": "<span>31.</span> Full Screen Navigation",
+    "description": "Fullscreen menu",
+    "path": "./31. Full Screen Navigation/"
+  },
+  {
+    "name": "<span>32.</span> 3D Navs",
+    "description": "3D navigation effects",
+    "path": "./32. 3D Nav/"
+  },
+  {
+    "name": "<span>33.</span> Counters",
+    "description": "Animated counters",
+    "path": "./33. Counter/"
+  },
+  {
+    "name": "<span>34.</span> Text Formatters",
+    "description": "Text formatting projects",
+    "path": "./34. Text Formatter/"
+  },
+  {
+    "name": "<span>35.</span> Image Gallery",
+    "description": "Gallery examples",
+    "path": "./35. Image Gallery/"
+  },
+  {
+    "name": "<span>36.</span> Read More and Read Lesss",
+    "description": "Text expand/collapse",
+    "path": "./36. Read More and Read Less/"
+  },
+  {
+    "name": "<span>37.</span> Expanding Cardss",
+    "description": "Expanding card UI",
+    "path": "./37. Expanding Cards/"
+  },
+  {
+    "name": "<span>38.</span> keyCodes",
+    "description": "Keyboard code display",
+    "path": "./38. keyCode/"
+  },
+  {
+    "name": "<span>39.</span> Tabss",
+    "description": "Tab UI examples",
+    "path": "./39. Tabs/"
+  },
+  {
+    "name": "<span>40.</span> Accordionss",
+    "description": "Accordion UI examples",
+    "path": "./40. Accordions/"
+  },
+  {
+    "name": "<span>41.</span> Random Images Feeds",
+    "description": "Random image feeds",
+    "path": "./41. Random Images Feed/"
+  },
+  {
+    "name": "<span>42.</span> Random Quotes",
+    "description": "Random quotes display",
+    "path": "./42. Random Quote/"
+  },
+  {
+    "name": "<span>43.</span> Email Validation",
+    "description": "Email validation examples",
+    "path": "./43. Email Validation/"
+  },
+  {
+    "name": "<span>44.</span> Interchangeable Background Colors",
+    "description": "Background switchers",
+    "path": "./44. Interchangeable Background Color/"
+  },
+  {
+    "name": "<span>45.</span> Digital Clocks",
+    "description": "Digital clock examples",
+    "path": "./45. Digital Clock/"
+  },
+  {
+    "name": "<span>46.</span> Browse File Uploads",
+    "description": "File upload UI",
+    "path": "./46. Browse File Upload/"
+  },
+  {
+    "name": "<span>47.</span> Sticky Navbars",
+    "description": "Sticky navbar examples",
+    "path": "./47. Sticky Navbar/"
+  },
+  {
+    "name": "<span>48.</span> Search and Highlights",
+    "description": "Search highlighting",
+    "path": "./48. Search and Highlight/"
+  },
+  {
+    "name": "<span>49.</span> Custom Range Sliders",
+    "description": "Range slider UI",
+    "path": "./49. Custom Range Slider/"
+  },
+  {
+    "name": "<span>50.</span> Feedbacks",
+    "description": "Feedback forms",
+    "path": "./50. Feedback/"
+  },
+  {
+    "name": "<span>51.</span> Eye Follows",
+    "description": "Eye follow cursor effect",
+    "path": "./51. Eye Follow/"
+  },
+  {
+    "name": "<span>52.</span> Rounded Navbars",
+    "description": "Rounded navbar UI",
+    "path": "./52. Rounded Navbar/"
+  },
+  {
+    "name": "<span>53.</span> CSS Clip Path Animations",
+    "description": "Clip-path animations",
+    "path": "./53. CSS Clip Path Animation/"
+  },
+  {
+    "name": "<span>54.</span> Mini Calendars",
+    "description": "Mini calendar UI",
+    "path": "./54. Mini Calendar/"
+  },
+  {
+    "name": "<span>55.</span> Two Sides Scrolls",
+    "description": "Two sides scroll projects",
+    "path": "./55. Two Sides Scroll/"
+  },
+  {
+    "name": "<span>56.</span> Followerss",
+    "description": "Follower counter",
+    "path": "./56. Followers/"
+  },
+  {
+    "name": "<span>57.</span> Custom Cusrors",
+    "description": "Custom cursor effects",
+    "path": "./57. Custom Cusror/"
+  },
+  {
+    "name": "<span>58.</span> Rotating Text",
+    "description": "Rotating text animation",
+    "path": "./58. Rotating Text/"
+  },
+  {
+    "name": "<span>59.</span> Background Image Carousels",
+    "description": "Image carousel UI",
+    "path": "./59. Background Image Carousel/"
+  },
+  {
+    "name": "<span>60.</span> Modern Calculator",
+    "description": "Modern calculator UI",
+    "path": "./60. Modern Calculator/"
+  },
+  {
+    "name": "<span>61.</span> Sidebar Animations",
+    "description": "Sidebar UI animation",
+    "path": "./61. Sidebar Animation/"
+  },
+  {
+    "name": "<span>62.</span> Rotating Image Gallerys",
+    "description": "Rotating image galleries",
+    "path": "./62. Rotating Image Gallery/"
+  },
+  {
+    "name": "<span>63.</span> Password Strength Bgs",
+    "description": "Password strength indicator",
+    "path": "./63. Password Strength Bg/"
+  },
+  {
+    "name": "<span>64.</span> Gradient Generators",
+    "description": "Gradient generator UI",
+    "path": "./64. Gradient Generator/"
+  },
+  {
+    "name": "<span>65.</span> Two Sided Forms",
+    "description": "Two-sided forms UI",
+    "path": "./65. Two Sided Form/"
+  },
+  {
+    "name": "<span>66.</span> Animated Search Bars",
+    "description": "Animated search bar UI",
+    "path": "./66. Animated Search Bar/"
+  },
+  {
+    "name": "<span>67.</span> Password Generators",
+    "description": "Password generator projects",
+    "path": "./67. Password Generator/"
+  },
+  {
+    "name": "<span>68.</span> Box Shadow Generators",
+    "description": "Box shadow generator",
+    "path": "./68. Box Shadow Generator/"
+  },
+  {
+    "name": "<span>69.</span> Decimal To Binary Converters",
+    "description": "Convert decimal to binary",
+    "path": "./69. Deciaml To Binary Converter/"
+  },
+  {
+    "name": "<span>70.</span> Captcha Projects",
+    "description": "Captcha validation projects",
+    "path": "./70. Captcha Project/"
+  },
+  {
+    "name": "<span>71.</span> Drag n Drops",
+    "description": "Drag and drop UI",
+    "path": "./71. Drag n Drop/"
+  },
+  {
+    "name": "<span>72.</span> Update CSS Variables Using JavaScripts",
+    "description": "Update CSS vars with JS",
+    "path": "./72. Update CSS Variables Using JavaScript/"
+  },
+  {
+    "name": "<span>73.</span> Lights",
+    "description": "Light animations",
+    "path": "./73. Light/"
+  },
+  {
+    "name": "<span>74.</span> Tabed Navigation",
+    "description": "Tabbed navigation UI",
+    "path": "./74. Tabed Navigation/"
+  },
+  {
+    "name": "<span>75.</span> Todo Lists",
+    "description": "Todo list UI",
+    "path": "./75. Todo List/"
+  },
+  {
+    "name": "<span>76.</span> Chuck Norriss",
+    "description": "Chuck Norris jokes",
+    "path": "./76. Chuck Norris/"
+  },
+  {
+    "name": "<span>77.</span> Random Cat Imagess",
+    "description": "Random cat images",
+    "path": "./77. Random Cat Images/"
+  },
+  {
+    "name": "<span>78.</span> Dad Jokess",
+    "description": "Dad jokes",
+    "path": "./78. Dad Jokes/"
+  },
+  {
+    "name": "<span>79.</span> Testimonal Box Switchers",
+    "description": "Testimonial switcher",
+    "path": "./79. Testimonal Box Switcher/"
+  },
+  {
+    "name": "<span>80.</span> Live User Filters",
+    "description": "Live user filtering",
+    "path": "./80. Live User Filter/"
+  },
+  {
+    "name": "<span>81.</span> Animated Images Website",
+    "description": "Animated image gallery",
+    "path": "./81. Animated Images Website/"
+  },
+  {
+    "name": "<span>82.</span> Emoji Catcher Games",
+    "description": "Emoji catching game",
+    "path": "./82. Emoji Catcher Game/"
+  },
+  {
+    "name": "<span>83.</span> Twitter Follow Components",
+    "description": "Twitter follow buttons",
+    "path": "./83. Twitter Follow Component/"
+  },
+  {
+    "name": "<span>84.</span> BookList Projects",
+    "description": "Booklist UI",
+    "path": "./84. BookList Project/"
+  },
+  {
+    "name": "<span>85.</span> Timers",
+    "description": "Timer projects",
+    "path": "./85. Timer/"
+  },
+  {
+    "name": "<span>86.</span> Typing Games",
+    "description": "Typing game projects",
+    "path": "./86. Typing Game/"
+  },
+  {
+    "name": "<span>87.</span> Shape Clicker Games",
+    "description": "Shape clicker games",
+    "path": "./87. Shape Clicker Game/"
+  },
+  {
+    "name": "<span>88.</span> World Counters",
+    "description": "World counter UI",
+    "path": "./88. World Counter/"
+  },
+  {
+    "name": "<span>89.</span> Random Users",
+    "description": "Random user generator",
+    "path": "./89. Random User/"
+  },
+  {
+    "name": "<span>90.</span> Construction Landing Page",
+    "description": "Construction landing page",
+    "path": "./90. Construction Landing Page/"
+  },
+  {
+    "name": "<span>91.</span> Foody Landing Page",
+    "description": "Foody landing page",
+    "path": "./91. Foody Landing Page/"
+  },
+  {
+    "name": "<span>92.</span> Coffee",
+    "description": "Coffee UI project",
+    "path": "./92. Coffee/"
+  },
+  {
+    "name": "<span>93.</span> The Art",
+    "description": "Art gallery",
+    "path": "./93. The Art/"
+  },
+  {
+    "name": "<span>94.</span> Hoodie",
+    "description": "Hoodie project",
+    "path": "./94. Hoodie/"
+  },
+  {
+    "name": "<span>95.</span> Chairs",
+    "description": "Chair showcase",
+    "path": "./95. Chairs/"
+  },
+  {
+    "name": "<span>96.</span> The Art",
+    "description": "Another Art project",
+    "path": "./96. The Art/"
+  },
+  {
+    "name": "<span>97.</span> Form Validation",
+    "description": "Form validation examples",
+    "path": "./97. Form Validation/"
+  },
+  {
+    "name": "<span>98.</span> Meal Finders",
+    "description": "Meal finder app",
+    "path": "./98. Meal Finder/"
+  },
+  {
+    "name": "<span>99.</span> Github Profile Clones",
+    "description": "GitHub profile clones",
+    "path": "./99. Github Profile Clone/"
+  },
+  {
+    "name": "<span>100.</span> Wikipedia Clones",
+    "description": "Wikipedia clone UI",
+    "path": "./100. Wikipedia Clone/"
+  }
+]
