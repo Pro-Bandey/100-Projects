@@ -4,196 +4,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name ="title"   content ="100 Projects "/>
-<meta name ="description"   content ="A collection of 100+ modern creative frontend projects including UI components, animations, effects, widgets, and more."/>
-<meta name ="copyright"   content ="Pro Bandey"/>
-<meta name ="keywords"   content ="Pro Bandey, 100 Projects, MegaMind-Solution, Ramzan Spot, M Spot, M Ramzan Ch Web, Pro Bandey GitHub, rm4814691, MRamzanCh, MRamzanCh01,Pro Bandey, MainRoute Core, MainRoute Core GitHub, MRc, MRC, mrc, tellme@mrc"/>
-<meta property ="og:type" content ="website"/>
-<meta property ="og:url" content ="https://pro-bandey.github.io/100-Projects/"/>
-<meta property ="og:title" content ="100 Projects "/>
-<meta property ="og:description" content ="A collection of 100+ modern creative frontend projects including UI components, animations, effects, widgets, and more."/>
-<meta property ="og:image" content ="https://iili.io/fc3VMhu.png"/>
-<meta property ="twitter:card" content ="summary_large_image"/>
-<meta property ="twitter:url" content ="https://pro-bandey.github.io/100-Projects/"/>
-<meta property ="twitter:title" content ="100 Projects "/>
-<meta property ="twitter:description" content ="A collection of 100+ modern creative frontend projects including UI components, animations, effects, widgets, and more."/>
-<meta property ="twitter:image" content ="https://iili.io/fc3VMhu.png"/>
 
-    <link href="./package.json" rel="manifest" />
-    <link href="./src/favicon.png" rel="apple-touch-icon" sizes="180x180" />
-    <link href="./src/favicon.png" rel="android-chrome-192x192" sizes="192x192" />
-    <link href="./src/favicon.png" rel="android-chrome-512x512" sizes="512x512" />
-    <link href="./src/favicon.png" rel="icon" sizes="32x32" />
-    <link href="./src/favicon.png" rel="icon" sizes="16x16" />
-    <link href="./src/favicon.png" rel="icon" />
+    <meta name="title" content="100 Projects " />
+    <meta name="description"
+        content="A collection of 100+ modern creative frontend projects including UI components, animations, effects, widgets, and more." />
+    <meta name="copyright" content="Pro Bandey" />
+    <meta name="keywords"
+        content="Pro Bandey, 100 Projects, M Spot, Pro Bandey GitHub,Pro Bandey, MainRoute Core, MainRoute Core GitHub, MRc, MRC, mrc, tellme@mrc" />
 
-    <link rel="shortcut icon" href="./src/favicon.png" type="image/x-icon">
-    
-    <link rel="stylesheet" href="./src/style.css">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://Pro-Bandey.github.io/100-Projects/" />
+    <meta property="og:title" content="100 Projects " />
+    <meta property="og:description"
+        content="A collection of 100+ modern creative frontend projects including UI components, animations, effects, widgets, and more." />
+    <meta property="og:image" content="https://iili.io/fc3VMhu.png" />
+
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://Pro-Bandey.github.io/100-Projects/" />
+    <meta property="twitter:title" content="100 Projects " />
+    <meta property="twitter:description"
+        content="A collection of 100+ modern creative frontend projects including UI components, animations, effects, widgets, and more." />
+    <meta property="twitter:image" content="https://iili.io/fc3VMhu.png" />
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('./sw.js').then(reg => { console.log('Core Service Worker Active. Scope:', reg.scope); }).catch(err => { console.error('× Service Worker Registration Failed:', err); });
+            });
+        }
+    </script>
+
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="canonical" href="https://Pro-Bandey.github.io/">
+    <link rel="shortcut icon" type="image/x-icon" sizes="any" href="favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="src/16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="src/32.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="src/48.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="src/64.png">
+    <link rel="icon" type="image/png" sizes="144x144" href="src/144.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="src/192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="src/512.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="src/apple-touch-icon.png">
+
+    <link rel="stylesheet" href="./css/index.css">
+
     <title>100 Projects</title>
-<!-- META TAGS -->
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-<meta name="title" content="100 Creative Frontend Projects – HTML CSS JS" />
-<meta name="description" content="A collection of 100+ modern creative frontend projects including UI components, animations, effects, widgets, and more." />
-<meta name="keywords" content="HTML, CSS, JavaScript, Projects, UI, Web Development, Animations, Components" />
-<meta name="author" content="Pro-Bandey" />
-
-<meta property="og:title" content="100 Creative Frontend Projects" />
-<meta property="og:description" content="Explore 100+ modern frontend projects built using HTML, CSS, and JavaScript." />
-<meta property="og:image" content="assets/preview.png" />
-<meta property="og:type" content="website" />
-
-<meta name="theme-color" content="#252525">
 </head>
 
 <body>
-
     <nav class="navbar">
         <div class="logo">100 Projects</div>
-        <div class="menu-container" id="menu-container">
-            <a href="#">Home</a>
-            <a href="https://Pro-Bandey.github.io">About Me</a>
-            <a href="https://github.com/pro-bandey/100-Projects">GitHub</a>
-        </div>
+        <div class="menu-container" id="menu-container"><a href="#">Home</a><a href="https://Pro-Bandey.github.io">About
+                Me</a><a href="https://github.com/Pro-Bandey/100-Projects">GitHub</a></div>
         <div class="btn-container">
-            <div class="menu-toggle" id="menu-toggle"><span></span><span></span><span></span></div>
-            <button id="theme-toggle" class="theme-btn">🌙</button>
+            <div class="menu-toggle" id="menu-toggle"><span></span><span></span><span></span></div><button
+                id="theme-toggle" class="theme-btn">🌙</button>
         </div>
     </nav>
-
-    <h1>100 Projects</h1>
-    <input class="search-bar" id="search-input" autocomplete="off" type="text" placeholder="Search Projects..."
-        onkeyup="searchProjects()">
+    <h1>100 Projects</h1><input class="search-bar" id="search-input" autocomplete="off" type="text"
+        placeholder="Search Projects..." onkeyup="searchProjects()">
     <hr style="margin: 20px;">
     <div id="project-container" class="project-container"></div>
-
     <div id="sub-popup" class="popup">
         <div class="popup-inner">
             <h2 id="popup-title"></h2>
-            <div id="popup-links"></div>
-            <button onclick="closePopup()" class="close-btn">Close</button>
+            <div id="popup-links"></div><button onclick="closePopup()" class="close-btn">Close</button>
         </div>
     </div>
     <hr>
-    <footer style="
-    text-align: center;
-    color: var(---text-color);
-">
-        © 2025 MainRoute Core. All Rights Reserved.<br>
-        <br>
-        Made with ♥ by Pro Bandey
+    <footer style=" text-align: center; color: var(---text-color);">
+        © 2025<spna id="year">2026</spna> MainRoute Core. All Rights Reserved.<br><br>Made with ♥ by Pro Bandey
     </footer>
     <script>
-        // ===================== THEME SWITCHER =====================
-        const themeBtn = document.querySelector('.theme-btn');
-        const body = document.body;
-
-        // Load saved theme
-        if (localStorage.getItem('theme') === 'dark') {
-            body.classList.add('dark');
-        }
-
-        // Toggle theme on button click
-        themeBtn.addEventListener('click', () => {
-            body.classList.toggle('dark');
-            localStorage.setItem('theme', body.classList.contains('dark') ? 'dark' : 'light');
-        });
-
-        // ===================== MOBILE MENU TOGGLE =====================
-        const menuToggle = document.getElementById('menu-toggle');
-        const menuContainer = document.querySelector('.menu-container');
-        const navpad = document.querySelector('.navbar');
-
-        menuToggle.addEventListener('click', () => {
-            menuContainer.classList.toggle('active');
-            navpad.classList.toggle('navpadd');
-        });
-
-        // // ===================== LOAD PROJECTS =====================
-        fetch('projects.json')
-            .then(res => res.json())
-            .then(projects => {
-                const container = document.getElementById('project-container');
-                container.innerHTML = '';
-
-                projects.forEach(project => {
-                    const card = document.createElement('div');
-                    card.className = 'project-card';
-
-                    // Add project name + description + links
-                    let innerHTML = `<h3>${project.name}</h3>
-                           <p>${project.description || ''}</p>`;
-
-
-                    if (project.demos && project.demos.length > 0) {
-                        innerHTML += `<ht><button class="preview-btn">Preview</button>`;
-                    } else if (project.path) {
-                        // Single project -> Preview link opens path
-                        innerHTML += `<hr><a class="preview-link" href="${project.path}" target="_blank">Preview⇗</a>`;
-                    }
-
-                    // Always add Github link
-                    innerHTML += `<a class="github-link" href="https://github.com/pro-bandey/100-Projects/blob/main/${project.path || ''}" target="_blank">Source Code⇗</a>`;
-
-                    card.innerHTML = innerHTML;
-                    container.appendChild(card);
-                    observer.observe(card); // fade-in effect
-
-                    // Handle Preview button for multi-folder projects
-                    const previewBtn = card.querySelector('.preview-btn');
-                    if (previewBtn) {
-                        previewBtn.addEventListener('click', (e) => {
-                            e.stopPropagation(); // prevent any bubbling
-                            openPopup(project);
-                        });
-                    }
-                });
-            })
-            .catch(err => {
-                console.error('Failed to load projects:', err);
-                document.getElementById('project-container').innerHTML = '<p style="color:red;text-align:center;">Failed to load projects. Check JSON & paths.</p>';
-            });
-
-        // ===================== POPUP HANDLER =====================
-        function openPopup(project) {
-            const popup = document.getElementById('sub-popup');
-            const title = document.getElementById('popup-title');
-            const links = document.getElementById('popup-links');
-            title.textContent = project.name;
-            links.innerHTML = '';
-            project.demos.forEach(demo => {
-                const a = document.createElement('a');
-                a.href = demo.path;
-                a.textContent = demo.title;
-                a.target = '_blank';
-                links.appendChild(a);
-            });
-            popup.classList.add('show');
-        }
-
-        function closePopup() {
-            document.getElementById('sub-popup').classList.remove('show');
-        }
-
-        // ===================== SEARCH FUNCTIONALITY =====================
-        function searchProjects() {
-            const q = document.getElementById('search-input').value.toLowerCase();
-            document.querySelectorAll('.project-card').forEach(card => {
-                const title = card.querySelector('h3').textContent.toLowerCase();
-                card.style.display = title.includes(q) ? 'block' : 'none';
-            });
-        }
-
-        // ===================== FADE-IN OBSERVER =====================
-        const observer = new IntersectionObserver(entries => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) entry.target.classList.add('show');
-            });
-        });
-
+        document.getElementById('year').textContent = new Date().getFullYear();
     </script>
+    <script src="js/index.js"></script>
 </body>
 
 </html>

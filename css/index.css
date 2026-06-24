@@ -1,6 +1,6 @@
 @font-face {
     font-family: Claire Murphy DEMO;
-    src: url(./ClaireMurphyDemo.otf);
+    src: url(../src/ClaireMurphyDemo.otf);
 }
 
 :root {
@@ -256,10 +256,10 @@ h1 {
 }
 
 @media(max-width:480px) {
-     .menu-container.active {
+    .menu-container.active {
         transform: rotateX(0);
         left: 0;
-     }
+    }
 }
 
 
