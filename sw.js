@@ -2,7 +2,7 @@
 // ____________CONFIG
 
 const CACHE_VERSION = "v1";
-const CACHE_PREFIX = "100-projects";
+const CACHE_PREFIX = "projects-100";
 
 const CACHE_NAME = `${CACHE_PREFIX}-${CACHE_VERSION}`;
 const MAX_CACHE_ITEMS = 100;
